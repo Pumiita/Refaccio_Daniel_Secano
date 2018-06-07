@@ -1,15 +1,13 @@
-import java.util.ArrayList;
-
 public class Assignatura extends AssignaturaMain {
     public long id = 0;
-    private String nom = "";
+    private String nombre = "";
     private int hores = 0;
     public int credits = 0;
     private boolean disponible = false;
 
     public Assignatura(long id, String nom, int hores, int credits, boolean disponible) {
         this.id = id;
-        this.nom = nom;
+        this.nombre = nom;
         this.hores = hores;
         this.credits = credits;
         this.disponible = disponible;
@@ -23,12 +21,12 @@ public class Assignatura extends AssignaturaMain {
         this.id = id;
     }
 
-    public String getNom() {
-        return nom;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public int getHores() {

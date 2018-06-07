@@ -9,7 +9,7 @@ public class AssignaturaMain {
         assignatures.add(ass1);
         assignatures.add(ass2);
         assignatures.add(ass3);
-        Matricula prova = new Matricula(2018090103, "Josep", "Garcia Marti", "12345678X", 1, assignatures);
+        Matriculaa prova = new Matriculaa(2018090103, "Josep", "Garcia Marti", "12345678X", 1, assignatures);
         System.out.print("Cost de la matricula " + prova.costMatricula());
     }
 }
