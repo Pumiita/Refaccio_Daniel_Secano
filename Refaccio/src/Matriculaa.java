@@ -21,7 +21,9 @@ public class Matriculaa extends Estudiant {
         this.curs = curs;
         this.assignatures = assignatures;
     }
-
+    /** Declaracion de la clase costMatricula.
+     @return cost se encarga de devolvernos el resultado final
+     */
     public float costMatricula(){
 
         float cost = 0;
@@ -34,6 +36,7 @@ public class Matriculaa extends Estudiant {
 
         cost = credits * valorcredit;
         return cost;
+
     }
 
 }
